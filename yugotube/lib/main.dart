@@ -10,10 +10,10 @@ class MyApp extends StatelessWidget {
     return new MaterialApp(
       title: 'Generated App',
       theme: new ThemeData(
-        primarySwatch: Colors.blue,
-        primaryColor: const Color(0xFF2196f3),
-        accentColor: const Color(0xFF2196f3),
-        canvasColor: const Color(0xFFfafafa),
+        primarySwatch: Colors.red,
+        primaryColor: Colors.red,
+        accentColor: Colors.red,
+        canvasColor: Colors.black,
       ),
       home: new MyHomePage(),
     );
@@ -46,13 +46,11 @@ class _MyHomePageState extends State<MyHomePage> {
 
             new TextField(
               style: new TextStyle(fontSize: 24.0,
-                  color: const Color(0xFF000000),
-                  fontWeight: FontWeight.w200,
+                  color: Colors.white,
+                  fontWeight: FontWeight.w400,
                   fontFamily: "Roboto"),
             ),
-             Text ("私はゴリラです")
           ]
-
       ),
 
     );
